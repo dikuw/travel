@@ -1,0 +1,608 @@
+[
+  {
+    "id": "stay_001",
+    "startDate": "2015-11-16",
+    "endDate": "2016-01-03",
+    "location": "Singapore"
+  },
+  {
+    "id": "stay_002",
+    "startDate": "2016-01-04",
+    "endDate": "2016-01-31",
+    "location": "Bangkok"
+  },
+  {
+    "id": "stay_003",
+    "startDate": "2016-02-01",
+    "endDate": "2016-02-14",
+    "location": "Koh Lanta"
+  },
+  {
+    "id": "stay_004",
+    "startDate": "2016-02-15",
+    "endDate": "2016-03-13",
+    "location": "Chiang Mai"
+  },
+  {
+    "id": "stay_005",
+    "startDate": "2016-03-14",
+    "endDate": "2016-04-10",
+    "location": "Phnom Penh"
+  },
+  {
+    "id": "stay_006",
+    "startDate": "2016-04-11",
+    "endDate": "2016-04-17",
+    "location": "Bangkok"
+  },
+  {
+    "id": "stay_007",
+    "startDate": "2016-04-18",
+    "endDate": "2016-04-24",
+    "location": "Berlin"
+  },
+  {
+    "id": "stay_008",
+    "startDate": "2016-04-25",
+    "endDate": "2016-05-15",
+    "location": "Prague"
+  },
+  {
+    "id": "stay_009",
+    "startDate": "2016-05-16",
+    "endDate": "2016-05-22",
+    "location": "Stockholm"
+  },
+  {
+    "id": "stay_010",
+    "startDate": "2016-05-23",
+    "endDate": "2016-06-19",
+    "location": "Berlin"
+  },
+  {
+    "id": "stay_011",
+    "startDate": "2016-06-20",
+    "endDate": "2016-06-26",
+    "location": "Venice"
+  },
+  {
+    "id": "stay_012",
+    "startDate": "2016-06-27",
+    "endDate": "2016-07-03",
+    "location": "Aix en Provence"
+  },
+  {
+    "id": "stay_013",
+    "startDate": "2016-07-04",
+    "endDate": "2016-07-17",
+    "location": "France"
+  },
+  {
+    "id": "stay_014",
+    "startDate": "2016-07-18",
+    "endDate": "2016-07-31",
+    "location": "Bucharest"
+  },
+  {
+    "id": "stay_015",
+    "startDate": "2016-08-01",
+    "endDate": "2016-09-04",
+    "location": "Istanbul"
+  },
+  {
+    "id": "stay_016",
+    "startDate": "2016-09-05",
+    "endDate": "2016-10-02",
+    "location": "Walnut Creek"
+  },
+  {
+    "id": "stay_017",
+    "startDate": "2016-10-03",
+    "endDate": "2016-10-16",
+    "location": "San Diego"
+  },
+  {
+    "id": "stay_018",
+    "startDate": "2016-10-17",
+    "endDate": "2016-10-23",
+    "location": "Las Vegas"
+  },
+  {
+    "id": "stay_019",
+    "startDate": "2016-10-24",
+    "endDate": "2016-10-30",
+    "location": "Aspen"
+  },
+  {
+    "id": "stay_020",
+    "startDate": "2016-10-31",
+    "endDate": "2016-11-13",
+    "location": "Boulder"
+  },
+  {
+    "id": "stay_021",
+    "startDate": "2016-11-14",
+    "endDate": "2016-11-20",
+    "location": "Portland"
+  },
+  {
+    "id": "stay_022",
+    "startDate": "2016-11-21",
+    "endDate": "2016-11-27",
+    "location": "San Francisco"
+  },
+  {
+    "id": "stay_023",
+    "startDate": "2016-11-28",
+    "endDate": "2017-01-08",
+    "location": "Boulder"
+  },
+  {
+    "id": "stay_024",
+    "startDate": "2017-01-09",
+    "endDate": "2017-01-15",
+    "location": "Breckenridge"
+  },
+  {
+    "id": "stay_025",
+    "startDate": "2017-01-16",
+    "endDate": "2017-04-02",
+    "location": "Boulder"
+  },
+  {
+    "id": "stay_026",
+    "startDate": "2017-04-03",
+    "endDate": "2017-04-09",
+    "location": "California"
+  },
+  {
+    "id": "stay_027",
+    "startDate": "2017-04-10",
+    "endDate": "2017-04-30",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_028",
+    "startDate": "2017-05-01",
+    "endDate": "2017-07-02",
+    "location": "Boulder"
+  },
+  {
+    "id": "stay_029",
+    "startDate": "2017-07-03",
+    "endDate": "2017-07-09",
+    "location": "Walnut Creek"
+  },
+  {
+    "id": "stay_030",
+    "startDate": "2017-07-10",
+    "endDate": "2017-09-24",
+    "location": "Boulder"
+  },
+  {
+    "id": "stay_031",
+    "startDate": "2017-09-25",
+    "endDate": "2017-10-01",
+    "location": "Portland"
+  },
+  {
+    "id": "stay_032",
+    "startDate": "2017-10-02",
+    "endDate": "2017-10-08",
+    "location": "San Francisco"
+  },
+  {
+    "id": "stay_033",
+    "startDate": "2017-10-09",
+    "endDate": "2017-10-15",
+    "location": "Bangkok"
+  },
+  {
+    "id": "stay_034",
+    "startDate": "2017-10-16",
+    "endDate": "2017-10-29",
+    "location": "Hua Hin"
+  },
+  {
+    "id": "stay_035",
+    "startDate": "2017-10-30",
+    "endDate": "2017-11-19",
+    "location": "Seoul"
+  },
+  {
+    "id": "stay_036",
+    "startDate": "2017-11-20",
+    "endDate": "2017-12-03",
+    "location": "Koh Samui"
+  },
+  {
+    "id": "stay_037",
+    "startDate": "2017-12-04",
+    "endDate": "2017-12-17",
+    "location": "Bali"
+  },
+  {
+    "id": "stay_038",
+    "startDate": "2017-12-18",
+    "endDate": "2017-12-31",
+    "location": "San Francisco"
+  },
+  {
+    "id": "stay_039",
+    "startDate": "2018-01-01",
+    "endDate": "2018-02-25",
+    "location": "Austin"
+  },
+  {
+    "id": "stay_040",
+    "startDate": "2018-02-26",
+    "endDate": "2018-03-04",
+    "location": "Portland"
+  },
+  {
+    "id": "stay_041",
+    "startDate": "2018-03-05",
+    "endDate": "2018-03-11",
+    "location": "San Francisco"
+  },
+  {
+    "id": "stay_042",
+    "startDate": "2018-03-12",
+    "endDate": "2020-02-16",
+    "location": "Austin"
+  },
+  {
+    "id": "stay_043",
+    "startDate": "2020-02-17",
+    "endDate": "2020-02-23",
+    "location": "San Francisco"
+  },
+  {
+    "id": "stay_044",
+    "startDate": "2020-02-24",
+    "endDate": "2020-05-31",
+    "location": "Hanoi"
+  },
+  {
+    "id": "stay_045",
+    "startDate": "2020-06-01",
+    "endDate": "2020-07-26",
+    "location": "Saigon"
+  },
+  {
+    "id": "stay_046",
+    "startDate": "2020-07-27",
+    "endDate": "2020-09-27",
+    "location": "Hanoi"
+  },
+  {
+    "id": "stay_047",
+    "startDate": "2020-09-28",
+    "endDate": "2020-10-04",
+    "location": "San Francisco"
+  },
+  {
+    "id": "stay_048",
+    "startDate": "2020-10-05",
+    "endDate": "2020-10-18",
+    "location": "Portland"
+  },
+  {
+    "id": "stay_049",
+    "startDate": "2020-10-19",
+    "endDate": "2020-11-15",
+    "location": "Austin"
+  },
+  {
+    "id": "stay_050",
+    "startDate": "2020-11-16",
+    "endDate": "2021-01-31",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_051",
+    "startDate": "2021-02-01",
+    "endDate": "2021-03-28",
+    "location": "Bogotá"
+  },
+  {
+    "id": "stay_052",
+    "startDate": "2021-03-29",
+    "endDate": "2021-05-09",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_053",
+    "startDate": "2021-05-10",
+    "endDate": "2021-05-16",
+    "location": "Austin"
+  },
+  {
+    "id": "stay_054",
+    "startDate": "2021-05-17",
+    "endDate": "2021-05-23",
+    "location": "San Francisco"
+  },
+  {
+    "id": "stay_055",
+    "startDate": "2021-05-24",
+    "endDate": "2021-06-06",
+    "location": "Portland"
+  },
+  {
+    "id": "stay_056",
+    "startDate": "2021-06-07",
+    "endDate": "2021-06-13",
+    "location": "Austin"
+  },
+  {
+    "id": "stay_057",
+    "startDate": "2021-06-14",
+    "endDate": "2021-09-19",
+    "location": "New York City"
+  },
+  {
+    "id": "stay_058",
+    "startDate": "2021-09-20",
+    "endDate": "2021-10-03",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_059",
+    "startDate": "2021-10-04",
+    "endDate": "2021-10-10",
+    "location": "Cartagena"
+  },
+  {
+    "id": "stay_060",
+    "startDate": "2021-10-11",
+    "endDate": "2022-07-03",
+    "location": "New York City"
+  },
+  {
+    "id": "stay_061",
+    "startDate": "2023-03-27",
+    "endDate": "2023-04-02",
+    "location": "New York City"
+  },
+  {
+    "id": "stay_062",
+    "startDate": "2023-04-03",
+    "endDate": "2023-04-23",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_063",
+    "startDate": "2023-04-24",
+    "endDate": "2023-04-30",
+    "location": "Cartagena"
+  },
+  {
+    "id": "stay_064",
+    "startDate": "2023-05-01",
+    "endDate": "2023-05-21",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_065",
+    "startDate": "2023-05-22",
+    "endDate": "2023-06-04",
+    "location": "Cartagena"
+  },
+  {
+    "id": "stay_066",
+    "startDate": "2023-06-05",
+    "endDate": "2023-06-11",
+    "location": "Chicago"
+  },
+  {
+    "id": "stay_067",
+    "startDate": "2023-06-12",
+    "endDate": "2023-06-18",
+    "location": "Miami"
+  },
+  {
+    "id": "stay_068",
+    "startDate": "2023-06-19",
+    "endDate": "2023-07-16",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_069",
+    "startDate": "2023-07-17",
+    "endDate": "2023-07-23",
+    "location": "Guatapé"
+  },
+  {
+    "id": "stay_070",
+    "startDate": "2023-07-24",
+    "endDate": "2023-07-30",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_071",
+    "startDate": "2023-07-31",
+    "endDate": "2023-08-13",
+    "location": "Panama City"
+  },
+  {
+    "id": "stay_072",
+    "startDate": "2023-08-14",
+    "endDate": "2023-09-03",
+    "location": "Mexico City"
+  },
+  {
+    "id": "stay_073",
+    "startDate": "2023-09-04",
+    "endDate": "2023-09-10",
+    "location": "Puerto Vallarta"
+  },
+  {
+    "id": "stay_074",
+    "startDate": "2023-09-11",
+    "endDate": "2023-10-15",
+    "location": "Lima"
+  },
+  {
+    "id": "stay_075",
+    "startDate": "2023-10-16",
+    "endDate": "2023-10-29",
+    "location": "Mexico City"
+  },
+  {
+    "id": "stay_076",
+    "startDate": "2023-10-30",
+    "endDate": "2023-11-05",
+    "location": "Tahoe"
+  },
+  {
+    "id": "stay_077",
+    "startDate": "2023-11-06",
+    "endDate": "2023-11-26",
+    "location": "Mexico City"
+  },
+  {
+    "id": "stay_078",
+    "startDate": "2023-11-27",
+    "endDate": "2023-12-03",
+    "location": "Paris"
+  },
+  {
+    "id": "stay_079",
+    "startDate": "2023-12-04",
+    "endDate": "2023-12-10",
+    "location": "Amsterdam"
+  },
+  {
+    "id": "stay_080",
+    "startDate": "2023-12-11",
+    "endDate": "2024-01-28",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_081",
+    "startDate": "2024-01-29",
+    "endDate": "2024-02-04",
+    "location": "Miami"
+  },
+  {
+    "id": "stay_082",
+    "startDate": "2024-02-05",
+    "endDate": "2024-03-03",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_083",
+    "startDate": "2024-03-04",
+    "endDate": "2024-03-17",
+    "location": "Madrid"
+  },
+  {
+    "id": "stay_084",
+    "startDate": "2024-03-18",
+    "endDate": "2024-03-24",
+    "location": "Toledo"
+  },
+  {
+    "id": "stay_085",
+    "startDate": "2024-03-25",
+    "endDate": "2024-04-07",
+    "location": "Madrid"
+  },
+  {
+    "id": "stay_086",
+    "startDate": "2024-04-08",
+    "endDate": "2024-04-14",
+    "location": "Marrakesh"
+  },
+  {
+    "id": "stay_087",
+    "startDate": "2024-04-15",
+    "endDate": "2024-04-28",
+    "location": "Athens"
+  },
+  {
+    "id": "stay_088",
+    "startDate": "2024-04-29",
+    "endDate": "2024-05-05",
+    "location": "Santorini"
+  },
+  {
+    "id": "stay_089",
+    "startDate": "2024-05-06",
+    "endDate": "2024-05-19",
+    "location": "Rome"
+  },
+  {
+    "id": "stay_090",
+    "startDate": "2024-05-20",
+    "endDate": "2024-05-26",
+    "location": "Venice"
+  },
+  {
+    "id": "stay_091",
+    "startDate": "2024-05-27",
+    "endDate": "2024-06-02",
+    "location": "Siena"
+  },
+  {
+    "id": "stay_092",
+    "startDate": "2024-06-03",
+    "endDate": "2024-06-16",
+    "location": "Mexico City"
+  },
+  {
+    "id": "stay_093",
+    "startDate": "2024-06-17",
+    "endDate": "2024-06-23",
+    "location": "San Francisco"
+  },
+  {
+    "id": "stay_094",
+    "startDate": "2024-06-24",
+    "endDate": "2024-06-30",
+    "location": "Mexico City"
+  },
+  {
+    "id": "stay_095",
+    "startDate": "2024-07-01",
+    "endDate": "2024-10-20",
+    "location": "New York City"
+  },
+  {
+    "id": "stay_096",
+    "startDate": "2024-10-21",
+    "endDate": "2024-11-03",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_097",
+    "startDate": "2024-11-04",
+    "endDate": "2024-11-10",
+    "location": "Tahoe"
+  },
+  {
+    "id": "stay_098",
+    "startDate": "2024-11-11",
+    "endDate": "2024-11-24",
+    "location": "Medellín"
+  },
+  {
+    "id": "stay_099",
+    "startDate": "2024-11-25",
+    "endDate": "2024-12-01",
+    "location": "New York City"
+  },
+  {
+    "id": "stay_100",
+    "startDate": "2024-12-02",
+    "endDate": "2024-12-08",
+    "location": "Berlin"
+  },
+  {
+    "id": "stay_101",
+    "startDate": "2024-12-09",
+    "endDate": "2024-12-29",
+    "location": "Nice"
+  }
+]
