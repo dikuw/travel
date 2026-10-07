@@ -9,6 +9,7 @@ import {
   TIMELINE_END,
   TIMELINE_START,
 } from '../utils/travel.js'
+import CityName from './CityName.jsx'
 
 function PlayIcon() {
   return (
@@ -68,7 +69,9 @@ export default function Timeline() {
       </button>
       <div className="timeline-readout">
         <time dateTime={new Date(cursor).toISOString()}>{formatDate(cursor)}</time>
-        <strong className={during && stay.long ? 'is-long' : undefined}>{placeLabel}</strong>
+        <strong className={during && stay.long ? 'is-long' : undefined}>
+          {during ? <CityName name={stay.location} country={stay.country} /> : placeLabel}
+        </strong>
         {rangeLabel ? <span>{rangeLabel}</span> : <span>Drag to a date, or play from here</span>}
       </div>
       <label className="slider">
@@ -84,8 +87,8 @@ export default function Timeline() {
           onChange={(event) => setCursor(Number(event.target.value))}
         />
         <span className="slider-ends" aria-hidden="true">
-          <span>2015</span>
-          <span>2024</span>
+          <span>{new Date(TIMELINE_START).getUTCFullYear()}</span>
+          <span>{new Date(TIMELINE_END).getUTCFullYear()}</span>
         </span>
       </label>
     </footer>

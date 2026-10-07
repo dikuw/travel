@@ -1,5 +1,6 @@
 import { useTravelStore } from '../store/travel.js'
 import { formatDays, formatRange, placeDetails } from '../utils/travel.js'
+import CityName from './CityName.jsx'
 
 export default function Details() {
   const selected = useTravelStore((state) => state.selected)
@@ -10,11 +11,10 @@ export default function Details() {
   if (!place) return null
 
   return (
-    <aside className="details" aria-label={`${place.location} details`}>
+    <aside className="details" aria-label={`${place.location}, ${place.country}`}>
       <div className="details-head">
         <div>
-          <p className="eyebrow">{place.long ? 'Long stay' : 'Visit'}</p>
-          <h2>{place.location}</h2>
+          <h2><CityName name={place.location} country={place.country} /></h2>
         </div>
         <button type="button" className="close" onClick={() => setSelected(null)} aria-label="Close details">
           Close
@@ -29,7 +29,7 @@ export default function Details() {
         {place.stays.map((stay) => (
           <li key={stay.id} className={stay.current ? 'is-current' : undefined}>
             <p className="stay-dates">{formatRange(stay.start, stay.end)}</p>
-            <p className="stay-days">{formatDays(stay.days)}{stay.long ? ' · long stay' : ''}</p>
+            <p className="stay-days">{formatDays(stay.days)}</p>
             {(stay.from || stay.to) && (
               <p className="stay-route">
                 {stay.from ? `From ${stay.from}` : 'First stop'}

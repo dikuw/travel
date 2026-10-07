@@ -6,6 +6,8 @@ export const useTravelStore = create((set, get) => ({
   playing: false,
   selected: null,
   hover: null,
+  view: 'map',
+  focusToken: 0,
   setCursor: (cursor) => {
     const { selected } = get()
     const stillThere = !selected || stays.some((stay) => stay.location === selected && stay.start <= cursor)
@@ -17,6 +19,18 @@ export const useTravelStore = create((set, get) => ({
   setSelected: (selected) => set({ selected }),
   setHover: (hover) => set({ hover }),
   pause: () => set({ playing: false }),
+  setView: (view) => {
+    if (get().view === view) return
+    set({ view, playing: false, hover: null })
+  },
+  openOnMap: (location, cursor) => set({
+    view: 'map',
+    cursor,
+    selected: location,
+    playing: false,
+    hover: null,
+    focusToken: get().focusToken + 1,
+  }),
   togglePlay: () => {
     const { playing, cursor } = get()
     if (playing) {

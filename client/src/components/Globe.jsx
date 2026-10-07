@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import { AttributionControl, Map, NavigationControl } from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { useTravelStore } from '../store/travel.js'
-import { angularDistance, buildScene } from '../utils/travel.js'
+import { angularDistance, buildScene, stays } from '../utils/travel.js'
 
 const STYLE = 'https://tiles.openfreemap.org/styles/liberty'
 
@@ -207,6 +207,37 @@ export default function Globe() {
     if (!map || !readyRef.current || !map.getSource('places')) return
     paintScene(map, cursor)
   }, [cursor])
+
+  const focusToken = useTravelStore((state) => state.focusToken)
+  const view = useTravelStore((state) => state.view)
+
+  useEffect(() => {
+    if (view !== 'map') return undefined
+    const map = mapRef.current
+    if (!map) return undefined
+    const frame = window.requestAnimationFrame(() => map.resize())
+    return () => window.cancelAnimationFrame(frame)
+  }, [view])
+
+  useEffect(() => {
+    if (!focusToken) return undefined
+    const map = mapRef.current
+    if (!map || !readyRef.current) return undefined
+    const frame = window.requestAnimationFrame(() => {
+      map.resize()
+      const { selected } = useTravelStore.getState()
+      const stay = stays.find((item) => item.location === selected)
+      if (!stay) return
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      map.flyTo({
+        center: stay.coordinates,
+        zoom: Math.max(map.getZoom(), 3.2),
+        ...(reduceMotion ? { duration: 0 } : { speed: 0.8 }),
+        essential: true,
+      })
+    })
+    return () => window.cancelAnimationFrame(frame)
+  }, [focusToken])
 
   useEffect(() => {
     const map = mapRef.current

@@ -17,17 +17,23 @@ function inclusiveDays(start, end) {
   return Math.round((end - start) / DAY_MS) + 1
 }
 
-export const stays = travelData.map((stay, index) => {
-  const coordinates = LOCATIONS[stay.location]
+function localToday() {
+  const now = new Date()
+  return Date.UTC(now.getFullYear(), now.getMonth(), now.getDate())
+}
+
+const scheduled = travelData.map((stay) => {
+  const location = stay.city
+  const coordinates = LOCATIONS[location]
   if (!coordinates) {
-    throw new Error(`Missing coordinates for ${stay.location}`)
+    throw new Error(`Missing coordinates for ${location}`)
   }
   const start = parseDay(stay.startDate)
   const end = parseDay(stay.endDate) + DAY_MS - 1
   const days = inclusiveDays(start, parseDay(stay.endDate))
   return {
     ...stay,
-    index,
+    location,
     coordinates,
     start,
     end,
@@ -35,6 +41,10 @@ export const stays = travelData.map((stay, index) => {
     long: days >= LONG_STAY_DAYS,
   }
 }).sort((a, b) => a.start - b.start)
+
+export const stays = scheduled
+  .filter((stay) => stay.start <= localToday())
+  .map((stay, index) => ({ ...stay, index }))
 
 export const TIMELINE_START = stays[0].start
 export const TIMELINE_END = stays[stays.length - 1].end
@@ -57,6 +67,127 @@ export function formatRange(start, end) {
 export function formatDays(days) {
   return days === 1 ? '1 day' : `${days} days`
 }
+
+export function formatItineraryRange(start, end) {
+  const from = new Date(start)
+  const to = new Date(end)
+  const sameYear = from.getUTCFullYear() === to.getUTCFullYear()
+  const sameMonth = sameYear && from.getUTCMonth() === to.getUTCMonth()
+  const sameDay = sameMonth && from.getUTCDate() === to.getUTCDate()
+  if (sameDay) return `${MONTHS[from.getUTCMonth()]} ${from.getUTCDate()}`
+  if (sameMonth) return `${MONTHS[from.getUTCMonth()]} ${from.getUTCDate()} – ${to.getUTCDate()}`
+  if (sameYear) {
+    return `${MONTHS[from.getUTCMonth()]} ${from.getUTCDate()} – ${MONTHS[to.getUTCMonth()]} ${to.getUTCDate()}`
+  }
+  return `${MONTHS[from.getUTCMonth()]} ${from.getUTCDate()}, ${from.getUTCFullYear()} – ${MONTHS[to.getUTCMonth()]} ${to.getUTCDate()}, ${to.getUTCFullYear()}`
+}
+
+const HOME_COUNTRY = 'United States'
+
+function utcMidnight(ms) {
+  const date = new Date(ms)
+  return Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate())
+}
+
+function calendarDays(startMs, endMs) {
+  const start = utcMidnight(startMs)
+  const end = utcMidnight(endMs)
+  if (end < start) return 0
+  return Math.round((end - start) / DAY_MS) + 1
+}
+
+export function summarizeStays(cursor = Number.POSITIVE_INFINITY, year = null) {
+  const places = new Set()
+  const countries = new Set()
+  let days = 0
+  let abroad = 0
+  const yearStart = year == null ? null : Date.UTC(year, 0, 1)
+  const yearEnd = year == null ? null : Date.UTC(year, 11, 31)
+
+  for (const stay of stays) {
+    if (stay.start > cursor) continue
+    let from = stay.start
+    let to = Math.min(stay.end, cursor)
+    if (yearStart != null) {
+      from = Math.max(from, yearStart)
+      to = Math.min(to, yearEnd)
+    }
+    const counted = calendarDays(from, to)
+    if (!counted) continue
+    places.add(stay.location)
+    countries.add(stay.country)
+    days += counted
+    if (stay.country !== HOME_COUNTRY) abroad += counted
+  }
+
+  return {
+    places: places.size,
+    countries: countries.size,
+    days,
+    abroad,
+    abroadPercent: days ? Math.round((abroad / days) * 100) : 0,
+  }
+}
+
+export const TRAVEL_SUMMARY = summarizeStays()
+
+function pushGroup(groups, stay) {
+  const current = groups.at(-1)
+  if (current?.country === stay.country) current.stays.push(stay)
+  else groups.push({ id: stay.id, country: stay.country, stays: [stay] })
+}
+
+function continuation(stay, year) {
+  const from = Date.UTC(year, 0, 1)
+  const to = Math.min(stay.end, Date.UTC(year, 11, 31))
+  return {
+    ...stay,
+    id: `${stay.id}-${year}`,
+    displayStart: from,
+    displayEnd: to,
+    displayDays: calendarDays(from, to),
+  }
+}
+
+function groupItinerary(list) {
+  const byYear = new Map()
+  const years = new Set()
+  for (const stay of list) {
+    const startYear = new Date(stay.start).getUTCFullYear()
+    const endYear = new Date(stay.end).getUTCFullYear()
+    for (let year = startYear; year <= endYear; year += 1) years.add(year)
+    let groups = byYear.get(startYear)
+    if (!groups) {
+      groups = []
+      byYear.set(startYear, groups)
+    }
+    pushGroup(groups, stay)
+  }
+  for (const year of years) {
+    if (byYear.has(year)) continue
+    const groups = []
+    for (const stay of list) {
+      const startYear = new Date(stay.start).getUTCFullYear()
+      const endYear = new Date(stay.end).getUTCFullYear()
+      if (startYear < year && endYear >= year) pushGroup(groups, continuation(stay, year))
+    }
+    byYear.set(year, groups)
+  }
+  return [...years]
+    .sort((a, b) => b - a)
+    .map((year) => {
+      const groups = byYear.get(year)
+      return {
+        year,
+        stays: groups.reduce((sum, group) => sum + group.stays.length, 0),
+        summary: summarizeStays(Number.POSITIVE_INFINITY, year),
+        groups,
+      }
+    })
+}
+
+export const itinerary = groupItinerary(stays)
+export const PLACE_COUNT = new Set(stays.map((stay) => stay.location)).size
 
 export function getStayAt(cursor) {
   let latest = null
@@ -85,6 +216,7 @@ export function focusStay(location, cursor) {
   const longest = Math.max(...list.map((item) => item.days))
   return {
     location,
+    country: stay.country,
     stay,
     count: list.length,
     total: list.reduce((sum, item) => sum + item.days, 0),
@@ -98,6 +230,7 @@ export function placeDetails(location, cursor) {
   const longest = Math.max(...list.map((item) => item.days))
   return {
     location,
+    country: list[0].country,
     count: list.length,
     total: list.reduce((sum, item) => sum + item.days, 0),
     long: longest >= LONG_STAY_DAYS,
