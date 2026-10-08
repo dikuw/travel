@@ -191,11 +191,13 @@ export const PLACE_COUNT = new Set(stays.map((stay) => stay.location)).size
 
 export function getStayAt(cursor) {
   let latest = null
+  let duringStay = null
   for (const stay of stays) {
     if (stay.start > cursor) break
     latest = stay
-    if (cursor <= stay.end) return { stay, during: true }
+    if (cursor <= stay.end) duringStay = stay
   }
+  if (duringStay) return { stay: duringStay, during: true }
   return { stay: latest, during: false }
 }
 

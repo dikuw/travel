@@ -253,12 +253,7 @@ export default function Globe() {
     const center = map.getCenter()
     const distance = angularDistance([center.lng, center.lat], stay.coordinates)
     if (distance < 70) return
-    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    map.easeTo({
-      center: stay.coordinates,
-      duration: reduceMotion ? 0 : 800,
-      essential: true,
-    })
+    map.jumpTo({ center: stay.coordinates })
   }, [cursor, playing])
 
   return <div ref={containerRef} className="globe" />
