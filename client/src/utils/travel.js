@@ -177,6 +177,8 @@ function groupItinerary(list) {
     .sort((a, b) => b - a)
     .map((year) => {
       const groups = byYear.get(year)
+        .map((group) => ({ ...group, stays: [...group.stays].reverse() }))
+        .reverse()
       return {
         year,
         stays: groups.reduce((sum, group) => sum + group.stays.length, 0),
