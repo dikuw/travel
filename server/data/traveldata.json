@@ -30,2056 +30,2070 @@
   {
     "id": "stay_005",
     "startDate": "2015-10-04",
-    "endDate": "2016-01-06",
+    "endDate": "2015-10-23",
     "city": "Singapore",
     "country": "Singapore"
   },
   {
     "id": "stay_006",
+    "startDate": "2015-10-23",
+    "endDate": "2015-10-25",
+    "city": "Manila",
+    "country": "Philippines"
+  },
+  {
+    "id": "stay_007",
+    "startDate": "2015-10-25",
+    "endDate": "2016-01-06",
+    "city": "Singapore",
+    "country": "Singapore"
+  },
+  {
+    "id": "stay_008",
     "startDate": "2016-01-06",
     "endDate": "2016-01-22",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_007",
+    "id": "stay_009",
     "startDate": "2016-01-22",
     "endDate": "2016-01-24",
     "city": "Ho Chi Minh City",
     "country": "Vietnam"
   },
   {
-    "id": "stay_008",
+    "id": "stay_010",
     "startDate": "2016-01-24",
     "endDate": "2016-02-03",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_009",
+    "id": "stay_011",
     "startDate": "2016-02-03",
     "endDate": "2016-02-12",
     "city": "Koh Lanta",
     "country": "Thailand"
   },
   {
-    "id": "stay_010",
+    "id": "stay_012",
     "startDate": "2016-02-12",
     "endDate": "2016-03-09",
     "city": "Chiang Mai",
     "country": "Thailand"
   },
   {
-    "id": "stay_011",
+    "id": "stay_013",
     "startDate": "2016-03-09",
     "endDate": "2016-03-16",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_012",
+    "id": "stay_014",
     "startDate": "2016-03-16",
     "endDate": "2016-04-15",
     "city": "Phnom Penh",
     "country": "Cambodia"
   },
   {
-    "id": "stay_013",
+    "id": "stay_015",
     "startDate": "2016-04-15",
     "endDate": "2016-04-18",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_014",
+    "id": "stay_016",
     "startDate": "2016-04-18",
     "endDate": "2016-04-19",
     "city": "Cologne",
     "country": "Germany"
   },
   {
-    "id": "stay_015",
+    "id": "stay_017",
     "startDate": "2016-04-19",
     "endDate": "2016-04-30",
     "city": "Berlin",
     "country": "Germany"
   },
   {
-    "id": "stay_016",
+    "id": "stay_018",
     "startDate": "2016-04-30",
     "endDate": "2016-05-18",
     "city": "Prague",
     "country": "Czechia"
   },
   {
-    "id": "stay_017",
+    "id": "stay_019",
     "startDate": "2016-05-18",
     "endDate": "2016-05-21",
     "city": "Stockholm",
     "country": "Sweden"
   },
   {
-    "id": "stay_018",
+    "id": "stay_020",
     "startDate": "2016-05-21",
     "endDate": "2016-06-24",
     "city": "Berlin",
     "country": "Germany"
   },
   {
-    "id": "stay_019",
+    "id": "stay_021",
     "startDate": "2016-06-24",
     "endDate": "2016-06-25",
     "city": "Regensburg",
     "country": "Germany"
   },
   {
-    "id": "stay_020",
+    "id": "stay_022",
     "startDate": "2016-06-25",
     "endDate": "2016-07-01",
     "city": "Venice",
     "country": "Italy"
   },
   {
-    "id": "stay_021",
+    "id": "stay_023",
     "startDate": "2016-07-01",
     "endDate": "2016-07-11",
     "city": "Aix-en-Provence",
     "country": "France"
   },
   {
-    "id": "stay_022",
+    "id": "stay_024",
     "startDate": "2016-07-11",
     "endDate": "2016-07-13",
     "city": "Carcassonne",
     "country": "France"
   },
   {
-    "id": "stay_023",
+    "id": "stay_025",
     "startDate": "2016-07-13",
     "endDate": "2016-07-14",
     "city": "Barcelona",
     "country": "Spain"
   },
   {
-    "id": "stay_024",
+    "id": "stay_026",
     "startDate": "2016-07-14",
     "endDate": "2016-07-28",
     "city": "Bucharest",
     "country": "Romania"
   },
   {
-    "id": "stay_025",
+    "id": "stay_027",
     "startDate": "2016-07-28",
     "endDate": "2016-08-31",
     "city": "Istanbul",
     "country": "Türkiye"
   },
   {
-    "id": "stay_026",
+    "id": "stay_028",
     "startDate": "2016-08-31",
     "endDate": "2016-09-01",
     "city": "Frankfurt",
     "country": "Germany"
   },
   {
-    "id": "stay_027",
+    "id": "stay_029",
     "startDate": "2016-09-01",
     "endDate": "2016-10-08",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_028",
+    "id": "stay_030",
     "startDate": "2016-10-08",
     "endDate": "2016-10-16",
     "city": "San Diego",
     "country": "United States"
   },
   {
-    "id": "stay_029",
+    "id": "stay_031",
     "startDate": "2016-10-16",
     "endDate": "2016-10-17",
     "city": "Las Vegas",
     "country": "United States"
   },
   {
-    "id": "stay_030",
+    "id": "stay_032",
     "startDate": "2016-10-17",
     "endDate": "2016-10-18",
     "city": "Grand Junction",
     "country": "United States"
   },
   {
-    "id": "stay_031",
+    "id": "stay_033",
     "startDate": "2016-10-18",
     "endDate": "2016-10-19",
     "city": "Aspen",
     "country": "United States"
   },
   {
-    "id": "stay_032",
+    "id": "stay_034",
     "startDate": "2016-10-19",
     "endDate": "2016-11-13",
     "city": "Georgetown",
     "country": "United States"
   },
   {
-    "id": "stay_033",
+    "id": "stay_035",
     "startDate": "2016-11-13",
     "endDate": "2016-11-19",
     "city": "Boulder",
     "country": "United States"
   },
   {
-    "id": "stay_034",
+    "id": "stay_036",
     "startDate": "2016-11-19",
     "endDate": "2016-11-24",
     "city": "Portland",
     "country": "United States"
   },
   {
-    "id": "stay_035",
+    "id": "stay_037",
     "startDate": "2016-11-24",
     "endDate": "2016-11-27",
     "city": "San Francisco",
     "country": "United States"
   },
   {
-    "id": "stay_036",
+    "id": "stay_038",
     "startDate": "2016-11-27",
     "endDate": "2017-01-13",
     "city": "Boulder",
     "country": "United States"
   },
   {
-    "id": "stay_037",
+    "id": "stay_039",
     "startDate": "2017-01-13",
     "endDate": "2017-01-16",
     "city": "Breckenridge",
     "country": "United States"
   },
   {
-    "id": "stay_038",
+    "id": "stay_040",
     "startDate": "2017-01-16",
     "endDate": "2017-04-13",
     "city": "Boulder",
     "country": "United States"
   },
   {
-    "id": "stay_039",
+    "id": "stay_041",
     "startDate": "2017-04-13",
     "endDate": "2017-04-14",
     "city": "San Francisco",
     "country": "United States"
   },
   {
-    "id": "stay_040",
+    "id": "stay_042",
     "startDate": "2017-04-14",
     "endDate": "2017-04-24",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_041",
+    "id": "stay_043",
     "startDate": "2017-04-24",
     "endDate": "2017-04-26",
     "city": "Cartagena",
     "country": "Colombia"
   },
   {
-    "id": "stay_042",
+    "id": "stay_044",
     "startDate": "2017-04-26",
     "endDate": "2017-04-29",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_043",
+    "id": "stay_045",
     "startDate": "2017-04-29",
     "endDate": "2017-04-30",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_044",
+    "id": "stay_046",
     "startDate": "2017-04-30",
     "endDate": "2017-06-09",
     "city": "Boulder",
     "country": "United States"
   },
   {
-    "id": "stay_045",
+    "id": "stay_047",
     "startDate": "2017-06-09",
     "endDate": "2017-06-11",
     "city": "Chicago",
     "country": "United States"
   },
   {
-    "id": "stay_046",
+    "id": "stay_048",
     "startDate": "2017-06-11",
     "endDate": "2017-08-18",
     "city": "Boulder",
     "country": "United States"
   },
   {
-    "id": "stay_047",
+    "id": "stay_049",
     "startDate": "2017-08-18",
     "endDate": "2017-08-20",
     "city": "San Francisco",
     "country": "United States"
   },
   {
-    "id": "stay_048",
+    "id": "stay_050",
     "startDate": "2017-08-20",
     "endDate": "2017-09-08",
     "city": "Boulder",
     "country": "United States"
   },
   {
-    "id": "stay_049",
+    "id": "stay_051",
     "startDate": "2017-09-08",
     "endDate": "2017-09-11",
     "city": "Golden",
     "country": "United States"
   },
   {
-    "id": "stay_050",
+    "id": "stay_052",
     "startDate": "2017-09-11",
     "endDate": "2017-09-22",
     "city": "Boulder",
     "country": "United States"
   },
   {
-    "id": "stay_051",
+    "id": "stay_053",
     "startDate": "2017-09-22",
     "endDate": "2017-09-23",
     "city": "Evanston",
     "country": "United States"
   },
   {
-    "id": "stay_052",
+    "id": "stay_054",
     "startDate": "2017-09-23",
     "endDate": "2017-09-24",
     "city": "Pendleton",
     "country": "United States"
   },
   {
-    "id": "stay_053",
+    "id": "stay_055",
     "startDate": "2017-09-24",
     "endDate": "2017-09-27",
     "city": "Portland",
     "country": "United States"
   },
   {
-    "id": "stay_054",
+    "id": "stay_056",
     "startDate": "2017-09-27",
     "endDate": "2017-09-28",
     "city": "Medford",
     "country": "United States"
   },
   {
-    "id": "stay_055",
+    "id": "stay_057",
     "startDate": "2017-09-28",
     "endDate": "2017-10-10",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_056",
+    "id": "stay_058",
     "startDate": "2017-10-10",
     "endDate": "2017-10-11",
     "city": "San Francisco",
     "country": "United States"
   },
   {
-    "id": "stay_057",
+    "id": "stay_059",
     "startDate": "2017-10-11",
     "endDate": "2017-10-14",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_058",
+    "id": "stay_060",
     "startDate": "2017-10-14",
     "endDate": "2017-10-28",
     "city": "Hua Hin",
     "country": "Thailand"
   },
   {
-    "id": "stay_059",
+    "id": "stay_061",
     "startDate": "2017-10-28",
     "endDate": "2017-10-29",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_060",
+    "id": "stay_062",
     "startDate": "2017-10-29",
     "endDate": "2017-11-01",
     "city": "Roi Et",
     "country": "Thailand"
   },
   {
-    "id": "stay_061",
+    "id": "stay_063",
     "startDate": "2017-11-01",
     "endDate": "2017-11-08",
     "city": "Seoul",
     "country": "South Korea"
   },
   {
-    "id": "stay_062",
+    "id": "stay_064",
     "startDate": "2017-11-08",
     "endDate": "2017-11-09",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_063",
+    "id": "stay_065",
     "startDate": "2017-11-09",
     "endDate": "2017-11-19",
     "city": "Phuket",
     "country": "Thailand"
   },
   {
-    "id": "stay_064",
+    "id": "stay_066",
     "startDate": "2017-11-19",
     "endDate": "2017-11-24",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_065",
+    "id": "stay_067",
     "startDate": "2017-11-24",
     "endDate": "2017-11-29",
     "city": "Koh Samui",
     "country": "Thailand"
   },
   {
-    "id": "stay_066",
+    "id": "stay_068",
     "startDate": "2017-11-29",
     "endDate": "2017-12-07",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_067",
+    "id": "stay_069",
     "startDate": "2017-12-07",
     "endDate": "2017-12-12",
     "city": "Bali",
     "country": "Indonesia"
   },
   {
-    "id": "stay_068",
+    "id": "stay_070",
     "startDate": "2017-12-12",
     "endDate": "2017-12-13",
     "city": "Hong Kong",
     "country": "Hong Kong"
   },
   {
-    "id": "stay_069",
+    "id": "stay_071",
     "startDate": "2017-12-13",
     "endDate": "2017-12-29",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_070",
+    "id": "stay_072",
     "startDate": "2017-12-29",
     "endDate": "2018-02-28",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_071",
+    "id": "stay_073",
     "startDate": "2018-02-28",
     "endDate": "2018-03-05",
     "city": "Portland",
     "country": "United States"
   },
   {
-    "id": "stay_072",
+    "id": "stay_074",
     "startDate": "2018-03-05",
     "endDate": "2018-03-07",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_073",
+    "id": "stay_075",
     "startDate": "2018-03-07",
     "endDate": "2018-04-21",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_074",
+    "id": "stay_076",
     "startDate": "2018-04-21",
     "endDate": "2018-04-22",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_075",
+    "id": "stay_077",
     "startDate": "2018-04-22",
     "endDate": "2018-08-17",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_076",
+    "id": "stay_078",
     "startDate": "2018-08-17",
     "endDate": "2018-08-20",
     "city": "Las Vegas",
     "country": "United States"
   },
   {
-    "id": "stay_077",
+    "id": "stay_079",
     "startDate": "2018-08-20",
     "endDate": "2018-09-26",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_078",
+    "id": "stay_080",
     "startDate": "2018-09-26",
     "endDate": "2018-09-28",
     "city": "Estes Park",
     "country": "United States"
   },
   {
-    "id": "stay_079",
+    "id": "stay_081",
     "startDate": "2018-09-28",
     "endDate": "2018-11-10",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_080",
+    "id": "stay_082",
     "startDate": "2018-11-10",
     "endDate": "2018-11-12",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_081",
+    "id": "stay_083",
     "startDate": "2018-11-12",
     "endDate": "2018-11-25",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_082",
+    "id": "stay_084",
     "startDate": "2018-11-25",
     "endDate": "2018-12-06",
     "city": "Holland, MI",
     "country": "United States"
   },
   {
-    "id": "stay_083",
+    "id": "stay_085",
     "startDate": "2018-12-06",
     "endDate": "2018-12-24",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_084",
+    "id": "stay_086",
     "startDate": "2018-12-24",
     "endDate": "2018-12-29",
     "city": "South Lake Tahoe",
     "country": "United States"
   },
   {
-    "id": "stay_085",
+    "id": "stay_087",
     "startDate": "2018-12-29",
     "endDate": "2019-01-21",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_086",
+    "id": "stay_088",
     "startDate": "2019-01-21",
     "endDate": "2019-01-25",
     "city": "Chicago",
     "country": "United States"
   },
   {
-    "id": "stay_087",
+    "id": "stay_089",
     "startDate": "2019-01-25",
     "endDate": "2019-04-15",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_088",
+    "id": "stay_090",
     "startDate": "2019-04-15",
     "endDate": "2019-04-19",
     "city": "Chicago",
     "country": "United States"
   },
   {
-    "id": "stay_089",
+    "id": "stay_091",
     "startDate": "2019-04-19",
     "endDate": "2019-08-30",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_090",
+    "id": "stay_092",
     "startDate": "2019-08-30",
     "endDate": "2019-09-01",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_091",
+    "id": "stay_093",
     "startDate": "2019-09-01",
     "endDate": "2019-11-02",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_092",
+    "id": "stay_094",
     "startDate": "2019-11-02",
     "endDate": "2019-11-03",
     "city": "Houston",
     "country": "United States"
   },
   {
-    "id": "stay_093",
+    "id": "stay_095",
     "startDate": "2019-11-03",
     "endDate": "2019-11-20",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_094",
+    "id": "stay_096",
     "startDate": "2019-11-20",
     "endDate": "2019-11-24",
     "city": "Boulder",
     "country": "United States"
   },
   {
-    "id": "stay_095",
+    "id": "stay_097",
     "startDate": "2019-11-24",
     "endDate": "2020-01-11",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_096",
+    "id": "stay_098",
     "startDate": "2020-01-11",
     "endDate": "2020-01-12",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_097",
+    "id": "stay_099",
     "startDate": "2020-01-12",
     "endDate": "2020-02-15",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_098",
+    "id": "stay_100",
     "startDate": "2020-02-15",
     "endDate": "2020-02-17",
     "city": "San Diego",
     "country": "United States"
   },
   {
-    "id": "stay_099",
+    "id": "stay_101",
     "startDate": "2020-02-17",
     "endDate": "2020-02-22",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_100",
+    "id": "stay_102",
     "startDate": "2020-02-22",
     "endDate": "2020-02-24",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_101",
+    "id": "stay_103",
     "startDate": "2020-02-26",
     "endDate": "2020-05-27",
     "city": "Hanoi",
     "country": "Vietnam"
   },
   {
-    "id": "stay_102",
+    "id": "stay_104",
     "startDate": "2020-05-27",
     "endDate": "2020-07-01",
     "city": "Ho Chi Minh City",
     "country": "Vietnam"
   },
   {
-    "id": "stay_103",
+    "id": "stay_105",
     "startDate": "2020-07-01",
     "endDate": "2020-07-03",
     "city": "Phu Quoc",
     "country": "Vietnam"
   },
   {
-    "id": "stay_104",
+    "id": "stay_106",
     "startDate": "2020-07-03",
     "endDate": "2020-07-26",
     "city": "Ho Chi Minh City",
     "country": "Vietnam"
   },
   {
-    "id": "stay_105",
+    "id": "stay_107",
     "startDate": "2020-07-26",
     "endDate": "2020-09-17",
     "city": "Hanoi",
     "country": "Vietnam"
   },
   {
-    "id": "stay_106",
+    "id": "stay_108",
     "startDate": "2020-09-17",
     "endDate": "2020-09-19",
     "city": "Phu Quoc",
     "country": "Vietnam"
   },
   {
-    "id": "stay_107",
+    "id": "stay_109",
     "startDate": "2020-09-19",
     "endDate": "2020-09-25",
     "city": "Hanoi",
     "country": "Vietnam"
   },
   {
-    "id": "stay_108",
+    "id": "stay_110",
     "startDate": "2020-09-25",
     "endDate": "2020-09-26",
     "city": "Ho Chi Minh City",
     "country": "Vietnam"
   },
   {
-    "id": "stay_109",
+    "id": "stay_111",
     "startDate": "2020-09-26",
     "endDate": "2020-10-03",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_110",
+    "id": "stay_112",
     "startDate": "2020-10-03",
     "endDate": "2020-10-17",
     "city": "Portland",
     "country": "United States"
   },
   {
-    "id": "stay_111",
+    "id": "stay_113",
     "startDate": "2020-10-17",
     "endDate": "2020-11-14",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_112",
+    "id": "stay_114",
     "startDate": "2020-11-14",
     "endDate": "2020-12-26",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_113",
+    "id": "stay_115",
     "startDate": "2020-12-26",
     "endDate": "2020-12-31",
     "city": "Santa Marta",
     "country": "Colombia"
   },
   {
-    "id": "stay_114",
+    "id": "stay_116",
     "startDate": "2020-12-31",
     "endDate": "2021-01-30",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_115",
+    "id": "stay_117",
     "startDate": "2021-01-30",
     "endDate": "2021-03-19",
     "city": "Bogotá",
     "country": "Colombia"
   },
   {
-    "id": "stay_116",
+    "id": "stay_118",
     "startDate": "2021-03-19",
     "endDate": "2021-03-21",
     "city": "Cartagena",
     "country": "Colombia"
   },
   {
-    "id": "stay_117",
+    "id": "stay_119",
     "startDate": "2021-03-21",
     "endDate": "2021-03-28",
     "city": "Bogotá",
     "country": "Colombia"
   },
   {
-    "id": "stay_118",
+    "id": "stay_120",
     "startDate": "2021-03-28",
     "endDate": "2021-04-09",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_119",
+    "id": "stay_121",
     "startDate": "2021-04-09",
     "endDate": "2021-04-13",
     "city": "Cartagena",
     "country": "Colombia"
   },
   {
-    "id": "stay_120",
+    "id": "stay_122",
     "startDate": "2021-04-13",
     "endDate": "2021-05-08",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_121",
+    "id": "stay_123",
     "startDate": "2021-05-08",
     "endDate": "2021-05-15",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_122",
+    "id": "stay_124",
     "startDate": "2021-05-15",
     "endDate": "2021-05-16",
     "city": "San Leandro",
     "country": "United States"
   },
   {
-    "id": "stay_123",
+    "id": "stay_125",
     "startDate": "2021-05-16",
     "endDate": "2021-05-22",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_124",
+    "id": "stay_126",
     "startDate": "2021-05-22",
     "endDate": "2021-05-29",
     "city": "Portland",
     "country": "United States"
   },
   {
-    "id": "stay_125",
+    "id": "stay_127",
     "startDate": "2021-05-29",
     "endDate": "2021-06-11",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_126",
+    "id": "stay_128",
     "startDate": "2021-06-11",
     "endDate": "2021-06-14",
     "city": "Austin",
     "country": "United States"
   },
   {
-    "id": "stay_127",
+    "id": "stay_129",
     "startDate": "2021-06-14",
     "endDate": "2021-06-25",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_128",
+    "id": "stay_130",
     "startDate": "2021-06-25",
     "endDate": "2021-06-25",
     "city": "New Haven",
     "country": "United States"
   },
   {
-    "id": "stay_129",
+    "id": "stay_131",
     "startDate": "2021-06-25",
     "endDate": "2021-08-14",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_130",
+    "id": "stay_132",
     "startDate": "2021-08-14",
     "endDate": "2021-08-15",
     "city": "Alpena",
     "country": "United States"
   },
   {
-    "id": "stay_131",
+    "id": "stay_133",
     "startDate": "2021-08-15",
     "endDate": "2021-09-25",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_132",
+    "id": "stay_134",
     "startDate": "2021-09-25",
     "endDate": "2021-10-06",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_133",
+    "id": "stay_135",
     "startDate": "2021-10-06",
     "endDate": "2021-10-10",
     "city": "Cartagena",
     "country": "Colombia"
   },
   {
-    "id": "stay_134",
+    "id": "stay_136",
     "startDate": "2021-10-10",
     "endDate": "2021-12-03",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_135",
+    "id": "stay_137",
     "startDate": "2021-12-03",
     "endDate": "2021-12-05",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_136",
+    "id": "stay_138",
     "startDate": "2021-12-05",
     "endDate": "2022-04-27",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_137",
+    "id": "stay_139",
     "startDate": "2022-04-27",
     "endDate": "2022-04-27",
     "city": "Marlborough, MA",
     "country": "United States"
   },
   {
-    "id": "stay_138",
+    "id": "stay_140",
     "startDate": "2022-04-27",
     "endDate": "2022-08-27",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_139",
+    "id": "stay_141",
     "startDate": "2022-08-27",
     "endDate": "2022-09-04",
     "city": "Portland",
     "country": "United States"
   },
   {
-    "id": "stay_140",
+    "id": "stay_142",
     "startDate": "2022-09-04",
     "endDate": "2022-10-23",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_141",
+    "id": "stay_143",
     "startDate": "2022-10-23",
     "endDate": "2022-10-28",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_142",
+    "id": "stay_144",
     "startDate": "2022-10-28",
     "endDate": "2022-11-19",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_143",
+    "id": "stay_145",
     "startDate": "2022-11-20",
     "endDate": "2022-11-26",
     "city": "Paris",
     "country": "France"
   },
   {
-    "id": "stay_144",
+    "id": "stay_146",
     "startDate": "2022-11-26",
     "endDate": "2022-12-09",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_145",
+    "id": "stay_147",
     "startDate": "2022-12-09",
     "endDate": "2022-12-11",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_146",
+    "id": "stay_148",
     "startDate": "2022-12-11",
     "endDate": "2023-04-01",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_147",
+    "id": "stay_149",
     "startDate": "2023-04-01",
     "endDate": "2023-04-27",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_148",
+    "id": "stay_150",
     "startDate": "2023-04-27",
     "endDate": "2023-04-30",
     "city": "Cartagena",
     "country": "Colombia"
   },
   {
-    "id": "stay_149",
+    "id": "stay_151",
     "startDate": "2023-04-30",
     "endDate": "2023-05-27",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_150",
+    "id": "stay_152",
     "startDate": "2023-05-27",
     "endDate": "2023-05-29",
     "city": "Cartagena",
     "country": "Colombia"
   },
   {
-    "id": "stay_151",
+    "id": "stay_153",
     "startDate": "2023-05-29",
     "endDate": "2023-06-07",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_152",
+    "id": "stay_154",
     "startDate": "2023-06-07",
     "endDate": "2023-06-08",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_153",
+    "id": "stay_155",
     "startDate": "2023-06-08",
     "endDate": "2023-06-11",
     "city": "Chicago",
     "country": "United States"
   },
   {
-    "id": "stay_154",
+    "id": "stay_156",
     "startDate": "2023-06-11",
     "endDate": "2023-06-12",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_155",
+    "id": "stay_157",
     "startDate": "2023-06-12",
     "endDate": "2023-07-15",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_156",
+    "id": "stay_158",
     "startDate": "2023-07-15",
     "endDate": "2023-07-17",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_157",
+    "id": "stay_159",
     "startDate": "2023-07-17",
     "endDate": "2023-07-21",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_158",
+    "id": "stay_160",
     "startDate": "2023-07-21",
     "endDate": "2023-07-23",
     "city": "Guatapé",
     "country": "Colombia"
   },
   {
-    "id": "stay_159",
+    "id": "stay_161",
     "startDate": "2023-07-23",
     "endDate": "2023-07-29",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_160",
+    "id": "stay_162",
     "startDate": "2023-07-29",
     "endDate": "2023-08-05",
     "city": "Panama City",
     "country": "Panama"
   },
   {
-    "id": "stay_161",
+    "id": "stay_163",
     "startDate": "2023-08-05",
     "endDate": "2023-08-05",
     "city": "San Blas",
     "country": "Panama"
   },
   {
-    "id": "stay_162",
+    "id": "stay_164",
     "startDate": "2023-08-05",
     "endDate": "2023-08-12",
     "city": "Panama City",
     "country": "Panama"
   },
   {
-    "id": "stay_163",
+    "id": "stay_165",
     "startDate": "2023-08-12",
     "endDate": "2023-09-01",
     "city": "Mexico City",
     "country": "Mexico"
   },
   {
-    "id": "stay_164",
+    "id": "stay_166",
     "startDate": "2023-09-01",
     "endDate": "2023-09-04",
     "city": "Puerto Vallarta",
     "country": "Mexico"
   },
   {
-    "id": "stay_165",
+    "id": "stay_167",
     "startDate": "2023-09-04",
     "endDate": "2023-09-09",
     "city": "Mexico City",
     "country": "Mexico"
   },
   {
-    "id": "stay_166",
+    "id": "stay_168",
     "startDate": "2023-09-09",
     "endDate": "2023-10-14",
     "city": "Lima",
     "country": "Peru"
   },
   {
-    "id": "stay_167",
+    "id": "stay_169",
     "startDate": "2023-10-14",
     "endDate": "2023-10-20",
     "city": "Mexico City",
     "country": "Mexico"
   },
   {
-    "id": "stay_168",
+    "id": "stay_170",
     "startDate": "2023-10-20",
     "endDate": "2023-10-22",
     "city": "Tulum",
     "country": "Mexico"
   },
   {
-    "id": "stay_169",
+    "id": "stay_171",
     "startDate": "2023-10-22",
     "endDate": "2023-10-29",
     "city": "Mexico City",
     "country": "Mexico"
   },
   {
-    "id": "stay_170",
+    "id": "stay_172",
     "startDate": "2023-10-29",
     "endDate": "2023-11-02",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_171",
+    "id": "stay_173",
     "startDate": "2023-11-02",
     "endDate": "2023-11-05",
     "city": "South Lake Tahoe",
     "country": "United States"
   },
   {
-    "id": "stay_172",
+    "id": "stay_174",
     "startDate": "2023-11-05",
     "endDate": "2023-11-06",
     "city": "Walnut Creek",
     "country": "United States"
   },
   {
-    "id": "stay_173",
+    "id": "stay_175",
     "startDate": "2023-11-06",
     "endDate": "2023-11-21",
     "city": "Mexico City",
     "country": "Mexico"
   },
   {
-    "id": "stay_174",
+    "id": "stay_176",
     "startDate": "2023-11-21",
     "endDate": "2023-11-27",
     "city": "Paris",
     "country": "France"
   },
   {
-    "id": "stay_175",
+    "id": "stay_177",
     "startDate": "2023-11-27",
     "endDate": "2023-12-02",
     "city": "Amsterdam",
     "country": "Netherlands"
   },
   {
-    "id": "stay_176",
+    "id": "stay_178",
     "startDate": "2023-12-02",
     "endDate": "2023-12-09",
     "city": "Bogotá",
     "country": "Colombia"
   },
   {
-    "id": "stay_177",
+    "id": "stay_179",
     "startDate": "2023-12-09",
     "endDate": "2024-01-27",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_178",
+    "id": "stay_180",
     "startDate": "2024-01-27",
     "endDate": "2024-01-29",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_179",
+    "id": "stay_181",
     "startDate": "2024-01-29",
     "endDate": "2024-02-09",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_180",
+    "id": "stay_182",
     "startDate": "2024-02-09",
     "endDate": "2024-02-11",
     "city": "Santa Elena",
     "country": "Colombia"
   },
   {
-    "id": "stay_181",
+    "id": "stay_183",
     "startDate": "2024-02-11",
     "endDate": "2024-03-01",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_182",
+    "id": "stay_184",
     "startDate": "2024-03-01",
     "endDate": "2024-03-16",
     "city": "Madrid",
     "country": "Spain"
   },
   {
-    "id": "stay_183",
+    "id": "stay_185",
     "startDate": "2024-03-16",
     "endDate": "2024-03-18",
     "city": "Toledo",
     "country": "Spain"
   },
   {
-    "id": "stay_184",
+    "id": "stay_186",
     "startDate": "2024-03-18",
     "endDate": "2024-04-06",
     "city": "Madrid",
     "country": "Spain"
   },
   {
-    "id": "stay_185",
+    "id": "stay_187",
     "startDate": "2024-04-06",
     "endDate": "2024-04-13",
     "city": "Marrakesh",
     "country": "Morocco"
   },
   {
-    "id": "stay_186",
+    "id": "stay_188",
     "startDate": "2024-04-13",
     "endDate": "2024-04-27",
     "city": "Athens",
     "country": "Greece"
   },
   {
-    "id": "stay_187",
+    "id": "stay_189",
     "startDate": "2024-04-27",
     "endDate": "2024-04-29",
     "city": "Santorini",
     "country": "Greece"
   },
   {
-    "id": "stay_188",
+    "id": "stay_190",
     "startDate": "2024-04-29",
     "endDate": "2024-05-06",
     "city": "Rome",
     "country": "Italy"
   },
   {
-    "id": "stay_189",
+    "id": "stay_191",
     "startDate": "2024-05-06",
     "endDate": "2024-05-18",
     "city": "Florence",
     "country": "Italy"
   },
   {
-    "id": "stay_190",
+    "id": "stay_192",
     "startDate": "2024-05-18",
     "endDate": "2024-05-20",
     "city": "Venice",
     "country": "Italy"
   },
   {
-    "id": "stay_191",
+    "id": "stay_193",
     "startDate": "2024-05-20",
     "endDate": "2024-05-25",
     "city": "Florence",
     "country": "Italy"
   },
   {
-    "id": "stay_192",
+    "id": "stay_194",
     "startDate": "2024-05-25",
     "endDate": "2024-05-27",
     "city": "Siena",
     "country": "Italy"
   },
   {
-    "id": "stay_193",
+    "id": "stay_195",
     "startDate": "2024-05-27",
     "endDate": "2024-06-01",
     "city": "Florence",
     "country": "Italy"
   },
   {
-    "id": "stay_194",
+    "id": "stay_196",
     "startDate": "2024-06-01",
     "endDate": "2024-06-02",
     "city": "Barcelona",
     "country": "Spain"
   },
   {
-    "id": "stay_195",
+    "id": "stay_197",
     "startDate": "2024-06-02",
     "endDate": "2024-06-15",
     "city": "Mexico City",
     "country": "Mexico"
   },
   {
-    "id": "stay_196",
+    "id": "stay_198",
     "startDate": "2024-06-15",
     "endDate": "2024-06-19",
     "city": "San Leandro",
     "country": "United States"
   },
   {
-    "id": "stay_197",
+    "id": "stay_199",
     "startDate": "2024-06-19",
     "endDate": "2024-06-23",
     "city": "Las Vegas",
     "country": "United States"
   },
   {
-    "id": "stay_198",
+    "id": "stay_200",
     "startDate": "2024-06-23",
     "endDate": "2024-06-29",
     "city": "Mexico City",
     "country": "Mexico"
   },
   {
-    "id": "stay_199",
+    "id": "stay_201",
     "startDate": "2024-06-29",
     "endDate": "2024-10-19",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_200",
+    "id": "stay_202",
     "startDate": "2024-10-19",
     "endDate": "2024-11-01",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_201",
+    "id": "stay_203",
     "startDate": "2024-11-01",
     "endDate": "2024-11-02",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_202",
+    "id": "stay_204",
     "startDate": "2024-11-02",
     "endDate": "2024-11-10",
     "city": "South Lake Tahoe",
     "country": "United States"
   },
   {
-    "id": "stay_203",
+    "id": "stay_205",
     "startDate": "2024-11-10",
     "endDate": "2024-11-22",
     "city": "Medellín",
     "country": "Colombia"
   },
   {
-    "id": "stay_204",
+    "id": "stay_206",
     "startDate": "2024-11-23",
     "endDate": "2024-11-25",
     "city": "London",
     "country": "United Kingdom"
   },
   {
-    "id": "stay_205",
+    "id": "stay_207",
     "startDate": "2024-11-25",
     "endDate": "2024-12-01",
     "city": "Tromsø",
     "country": "Norway"
   },
   {
-    "id": "stay_206",
+    "id": "stay_208",
     "startDate": "2024-12-01",
     "endDate": "2024-12-08",
     "city": "Berlin",
     "country": "Germany"
   },
   {
-    "id": "stay_207",
+    "id": "stay_209",
     "startDate": "2024-12-08",
     "endDate": "2024-12-14",
     "city": "Nice",
     "country": "France"
   },
   {
-    "id": "stay_208",
+    "id": "stay_210",
     "startDate": "2024-12-14",
     "endDate": "2024-12-14",
     "city": "Ventimiglia",
     "country": "Italy"
   },
   {
-    "id": "stay_209",
+    "id": "stay_211",
     "startDate": "2024-12-14",
     "endDate": "2024-12-15",
     "city": "Sanremo",
     "country": "Italy"
   },
   {
-    "id": "stay_210",
+    "id": "stay_212",
     "startDate": "2024-12-15",
     "endDate": "2024-12-21",
     "city": "Nice",
     "country": "France"
   },
   {
-    "id": "stay_211",
+    "id": "stay_213",
     "startDate": "2024-12-21",
     "endDate": "2024-12-21",
     "city": "Cannes",
     "country": "France"
   },
   {
-    "id": "stay_212",
+    "id": "stay_214",
     "startDate": "2024-12-21",
     "endDate": "2024-12-23",
     "city": "Nice",
     "country": "France"
   },
   {
-    "id": "stay_213",
+    "id": "stay_215",
     "startDate": "2024-12-23",
     "endDate": "2024-12-23",
     "city": "Antibes",
     "country": "France"
   },
   {
-    "id": "stay_214",
+    "id": "stay_216",
     "startDate": "2024-12-23",
     "endDate": "2024-12-26",
     "city": "Nice",
     "country": "France"
   },
   {
-    "id": "stay_215",
+    "id": "stay_217",
     "startDate": "2024-12-26",
     "endDate": "2024-12-26",
     "city": "Villefranche-sur-Mer",
     "country": "France"
   },
   {
-    "id": "stay_216",
+    "id": "stay_218",
     "startDate": "2024-12-26",
     "endDate": "2024-12-27",
     "city": "Nice",
     "country": "France"
   },
   {
-    "id": "stay_217",
+    "id": "stay_219",
     "startDate": "2024-12-27",
     "endDate": "2024-12-27",
     "city": "Monaco",
     "country": "Monaco"
   },
   {
-    "id": "stay_218",
+    "id": "stay_220",
     "startDate": "2024-12-27",
     "endDate": "2024-12-31",
     "city": "Nice",
     "country": "France"
   },
   {
-    "id": "stay_219",
+    "id": "stay_221",
     "startDate": "2024-12-31",
     "endDate": "2025-01-04",
     "city": "Paris",
     "country": "France"
   },
   {
-    "id": "stay_220",
+    "id": "stay_222",
     "startDate": "2025-01-04",
     "endDate": "2025-01-11",
     "city": "Vienna",
     "country": "Austria"
   },
   {
-    "id": "stay_221",
+    "id": "stay_223",
     "startDate": "2025-01-11",
     "endDate": "2025-01-13",
     "city": "Budapest",
     "country": "Hungary"
   },
   {
-    "id": "stay_222",
+    "id": "stay_224",
     "startDate": "2025-01-13",
     "endDate": "2025-01-18",
     "city": "Vienna",
     "country": "Austria"
   },
   {
-    "id": "stay_223",
+    "id": "stay_225",
     "startDate": "2025-01-18",
     "endDate": "2025-01-21",
     "city": "Prague",
     "country": "Czechia"
   },
   {
-    "id": "stay_224",
+    "id": "stay_226",
     "startDate": "2025-01-21",
     "endDate": "2025-01-25",
     "city": "Vienna",
     "country": "Austria"
   },
   {
-    "id": "stay_225",
+    "id": "stay_227",
     "startDate": "2025-01-25",
     "endDate": "2025-02-01",
     "city": "Noblesville, IN",
     "country": "United States"
   },
   {
-    "id": "stay_226",
+    "id": "stay_228",
     "startDate": "2025-02-01",
     "endDate": "2025-02-03",
     "city": "Barcelona",
     "country": "Spain"
   },
   {
-    "id": "stay_227",
+    "id": "stay_229",
     "startDate": "2025-02-03",
     "endDate": "2025-02-08",
     "city": "Lisbon",
     "country": "Portugal"
   },
   {
-    "id": "stay_228",
+    "id": "stay_230",
     "startDate": "2025-02-08",
     "endDate": "2025-03-08",
     "city": "Rio de Janeiro",
     "country": "Brazil"
   },
   {
-    "id": "stay_229",
+    "id": "stay_231",
     "startDate": "2025-03-08",
     "endDate": "2025-03-21",
     "city": "Florianópolis",
     "country": "Brazil"
   },
   {
-    "id": "stay_230",
+    "id": "stay_232",
     "startDate": "2025-03-21",
     "endDate": "2025-04-12",
     "city": "Buenos Aires",
     "country": "Argentina"
   },
   {
-    "id": "stay_231",
+    "id": "stay_233",
     "startDate": "2025-04-12",
     "endDate": "2025-04-13",
     "city": "Colonia del Sacramento",
     "country": "Uruguay"
   },
   {
-    "id": "stay_232",
+    "id": "stay_234",
     "startDate": "2025-04-13",
     "endDate": "2025-04-26",
     "city": "Buenos Aires",
     "country": "Argentina"
   },
   {
-    "id": "stay_233",
+    "id": "stay_235",
     "startDate": "2025-04-26",
     "endDate": "2025-05-11",
     "city": "Asunción",
     "country": "Paraguay"
   },
   {
-    "id": "stay_234",
+    "id": "stay_236",
     "startDate": "2025-05-11",
     "endDate": "2025-06-13",
     "city": "Bogotá",
     "country": "Colombia"
   },
   {
-    "id": "stay_235",
+    "id": "stay_237",
     "startDate": "2025-06-13",
     "endDate": "2025-06-14",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_236",
+    "id": "stay_238",
     "startDate": "2025-06-14",
     "endDate": "2025-06-18",
     "city": "San Francisco",
     "country": "United States"
   },
   {
-    "id": "stay_237",
+    "id": "stay_239",
     "startDate": "2025-06-18",
     "endDate": "2025-06-27",
     "city": "Portland",
     "country": "United States"
   },
   {
-    "id": "stay_238",
+    "id": "stay_240",
     "startDate": "2025-06-27",
     "endDate": "2025-06-28",
     "city": "Seattle",
     "country": "United States"
   },
   {
-    "id": "stay_239",
+    "id": "stay_241",
     "startDate": "2025-06-28",
     "endDate": "2025-07-26",
     "city": "Toronto",
     "country": "Canada"
   },
   {
-    "id": "stay_240",
+    "id": "stay_242",
     "startDate": "2025-07-26",
     "endDate": "2025-09-15",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_241",
+    "id": "stay_243",
     "startDate": "2025-09-15",
     "endDate": "2025-09-18",
     "city": "Wilson, NC",
     "country": "United States"
   },
   {
-    "id": "stay_242",
+    "id": "stay_244",
     "startDate": "2025-09-18",
     "endDate": "2025-09-27",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_243",
+    "id": "stay_245",
     "startDate": "2025-09-27",
     "endDate": "2025-09-30",
     "city": "San Francisco",
     "country": "United States"
   },
   {
-    "id": "stay_244",
+    "id": "stay_246",
     "startDate": "2025-09-30",
     "endDate": "2025-10-30",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_245",
+    "id": "stay_247",
     "startDate": "2025-10-30",
     "endDate": "2025-11-02",
     "city": "Nashville",
     "country": "United States"
   },
   {
-    "id": "stay_246",
+    "id": "stay_248",
     "startDate": "2025-11-02",
     "endDate": "2025-11-07",
     "city": "Wilson, NC",
     "country": "United States"
   },
   {
-    "id": "stay_247",
+    "id": "stay_249",
     "startDate": "2025-11-07",
     "endDate": "2025-11-08",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_248",
+    "id": "stay_250",
     "startDate": "2025-11-08",
     "endDate": "2025-11-22",
     "city": "Lima",
     "country": "Peru"
   },
   {
-    "id": "stay_249",
+    "id": "stay_251",
     "startDate": "2025-11-22",
     "endDate": "2025-11-26",
     "city": "Cusco",
     "country": "Peru"
   },
   {
-    "id": "stay_250",
+    "id": "stay_252",
     "startDate": "2025-11-26",
     "endDate": "2025-11-28",
     "city": "Aguas Calientes",
     "country": "Peru"
   },
   {
-    "id": "stay_251",
+    "id": "stay_253",
     "startDate": "2025-11-28",
     "endDate": "2025-11-29",
     "city": "Cusco",
     "country": "Peru"
   },
   {
-    "id": "stay_252",
+    "id": "stay_254",
     "startDate": "2025-11-29",
     "endDate": "2025-12-26",
     "city": "Santiago",
     "country": "Chile"
   },
   {
-    "id": "stay_253",
+    "id": "stay_255",
     "startDate": "2025-12-26",
     "endDate": "2025-12-29",
     "city": "Viña del Mar",
     "country": "Chile"
   },
   {
-    "id": "stay_254",
+    "id": "stay_256",
     "startDate": "2025-12-29",
     "endDate": "2025-12-30",
     "city": "Valparaíso",
     "country": "Chile"
   },
   {
-    "id": "stay_255",
+    "id": "stay_257",
     "startDate": "2025-12-30",
     "endDate": "2026-01-03",
     "city": "Santiago",
     "country": "Chile"
   },
   {
-    "id": "stay_256",
+    "id": "stay_258",
     "startDate": "2026-01-03",
     "endDate": "2026-01-11",
     "city": "Quito",
     "country": "Ecuador"
   },
   {
-    "id": "stay_257",
+    "id": "stay_259",
     "startDate": "2026-01-11",
     "endDate": "2026-01-12",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_258",
+    "id": "stay_260",
     "startDate": "2026-01-12",
     "endDate": "2026-01-16",
     "city": "Wilson, NC",
     "country": "United States"
   },
   {
-    "id": "stay_259",
+    "id": "stay_261",
     "startDate": "2026-01-16",
     "endDate": "2026-01-19",
     "city": "Washington D.C.",
     "country": "United States"
   },
   {
-    "id": "stay_260",
+    "id": "stay_262",
     "startDate": "2026-01-19",
     "endDate": "2026-02-01",
     "city": "Boston",
     "country": "United States"
   },
   {
-    "id": "stay_261",
+    "id": "stay_263",
     "startDate": "2026-02-01",
     "endDate": "2026-03-05",
     "city": "New York City",
     "country": "United States"
   },
   {
-    "id": "stay_262",
+    "id": "stay_264",
     "startDate": "2026-03-05",
     "endDate": "2026-03-11",
     "city": "Portland",
     "country": "United States"
   },
   {
-    "id": "stay_263",
+    "id": "stay_265",
     "startDate": "2026-03-11",
     "endDate": "2026-03-14",
     "city": "San Francisco",
     "country": "United States"
   },
   {
-    "id": "stay_264",
+    "id": "stay_266",
     "startDate": "2026-03-15",
     "endDate": "2026-04-16",
     "city": "Tokyo",
     "country": "Japan"
   },
   {
-    "id": "stay_265",
+    "id": "stay_267",
     "startDate": "2026-04-16",
     "endDate": "2026-04-20",
     "city": "Kyoto",
     "country": "Japan"
   },
   {
-    "id": "stay_266",
+    "id": "stay_268",
     "startDate": "2026-04-20",
     "endDate": "2026-04-24",
     "city": "Hiroshima",
     "country": "Japan"
   },
   {
-    "id": "stay_267",
+    "id": "stay_269",
     "startDate": "2026-04-24",
     "endDate": "2026-04-28",
     "city": "Osaka",
     "country": "Japan"
   },
   {
-    "id": "stay_268",
+    "id": "stay_270",
     "startDate": "2026-04-28",
     "endDate": "2026-05-03",
     "city": "Beijing",
     "country": "China"
   },
   {
-    "id": "stay_269",
+    "id": "stay_271",
     "startDate": "2026-05-03",
     "endDate": "2026-05-07",
     "city": "Shanghai",
     "country": "China"
   },
   {
-    "id": "stay_270",
+    "id": "stay_272",
     "startDate": "2026-05-07",
     "endDate": "2026-05-14",
     "city": "Manila",
     "country": "Philippines"
   },
   {
-    "id": "stay_271",
+    "id": "stay_273",
     "startDate": "2026-05-14",
     "endDate": "2026-05-17",
     "city": "Cebu",
     "country": "Philippines"
   },
   {
-    "id": "stay_272",
+    "id": "stay_274",
     "startDate": "2026-05-17",
     "endDate": "2026-06-04",
     "city": "Manila",
     "country": "Philippines"
   },
   {
-    "id": "stay_273",
+    "id": "stay_275",
     "startDate": "2026-06-04",
     "endDate": "2026-06-12",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_274",
+    "id": "stay_276",
     "startDate": "2026-06-12",
     "endDate": "2026-06-15",
     "city": "Chiang Mai",
     "country": "Thailand"
   },
   {
-    "id": "stay_275",
+    "id": "stay_277",
     "startDate": "2026-06-15",
     "endDate": "2026-06-18",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_276",
+    "id": "stay_278",
     "startDate": "2026-06-18",
     "endDate": "2026-06-22",
     "city": "Ko Tao",
     "country": "Thailand"
   },
   {
-    "id": "stay_277",
+    "id": "stay_279",
     "startDate": "2026-06-22",
     "endDate": "2026-07-03",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_278",
+    "id": "stay_280",
     "startDate": "2026-07-03",
     "endDate": "2026-07-17",
     "city": "Bali",
     "country": "Indonesia"
   },
   {
-    "id": "stay_279",
+    "id": "stay_281",
     "startDate": "2026-07-17",
     "endDate": "2026-07-20",
     "city": "Labuan Bajo",
     "country": "Indonesia"
   },
   {
-    "id": "stay_280",
+    "id": "stay_282",
     "startDate": "2026-07-20",
     "endDate": "2026-08-01",
     "city": "Bali",
     "country": "Indonesia"
   },
   {
-    "id": "stay_281",
+    "id": "stay_283",
     "startDate": "2026-08-01",
     "endDate": "2026-08-07",
     "city": "Ho Chi Minh City",
     "country": "Vietnam"
   },
   {
-    "id": "stay_282",
+    "id": "stay_284",
     "startDate": "2026-08-07",
     "endDate": "2026-08-10",
     "city": "Da Nang",
     "country": "Vietnam"
   },
   {
-    "id": "stay_283",
+    "id": "stay_285",
     "startDate": "2026-08-10",
     "endDate": "2026-08-14",
     "city": "Ho Chi Minh City",
     "country": "Vietnam"
   },
   {
-    "id": "stay_284",
+    "id": "stay_286",
     "startDate": "2026-08-14",
     "endDate": "2026-08-17",
     "city": "Siem Reap",
     "country": "Cambodia"
   },
   {
-    "id": "stay_285",
+    "id": "stay_287",
     "startDate": "2026-08-17",
     "endDate": "2026-08-29",
     "city": "Ho Chi Minh City",
     "country": "Vietnam"
   },
   {
-    "id": "stay_286",
+    "id": "stay_288",
     "startDate": "2026-08-29",
     "endDate": "2026-08-31",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_287",
+    "id": "stay_289",
     "startDate": "2026-08-31",
     "endDate": "2026-09-14",
     "city": "Hua Hin",
     "country": "Thailand"
   },
   {
-    "id": "stay_288",
+    "id": "stay_290",
     "startDate": "2026-09-14",
     "endDate": "2026-10-01",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_289",
+    "id": "stay_291",
     "startDate": "2026-10-01",
     "endDate": "2026-10-04",
     "city": "Hanoi",
     "country": "Vietnam"
   },
   {
-    "id": "stay_290",
+    "id": "stay_292",
     "startDate": "2026-10-04",
     "endDate": "2026-10-18",
     "city": "Bangkok",
     "country": "Thailand"
   },
   {
-    "id": "stay_291",
+    "id": "stay_293",
     "startDate": "2026-10-18",
     "endDate": "2026-10-27",
     "city": "Osaka",
     "country": "Japan"
   },
   {
-    "id": "stay_292",
+    "id": "stay_294",
     "startDate": "2026-10-27",
     "endDate": "2026-10-28",
     "city": "Tokyo",
     "country": "Japan"
   },
   {
-    "id": "stay_293",
+    "id": "stay_295",
     "startDate": "2026-10-28",
     "endDate": "2026-10-31",
     "city": "San Francisco",
     "country": "United States"
   },
   {
-    "id": "stay_294",
+    "id": "stay_296",
     "startDate": "2026-10-31",
     "endDate": "2026-11-01",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_295",
+    "id": "stay_297",
     "startDate": "2026-11-01",
     "endDate": "2026-11-03",
     "city": "Key West",
     "country": "United States"
   },
   {
-    "id": "stay_296",
+    "id": "stay_298",
     "startDate": "2026-11-03",
     "endDate": "2026-11-05",
     "city": "Key Largo",
     "country": "United States"
   },
   {
-    "id": "stay_297",
+    "id": "stay_299",
     "startDate": "2026-11-05",
     "endDate": "2026-11-08",
     "city": "Miami",
     "country": "United States"
   },
   {
-    "id": "stay_298",
+    "id": "stay_300",
     "startDate": "2026-11-08",
     "endDate": "2027-01-04",
     "city": "Medellín",
