@@ -317,20 +317,20 @@
   {
     "id": "stay_046",
     "startDate": "2017-04-30",
-    "endDate": "2017-06-09",
+    "endDate": "2017-06-29",
     "city": "Boulder",
     "country": "United States"
   },
   {
     "id": "stay_047",
-    "startDate": "2017-06-09",
-    "endDate": "2017-06-11",
-    "city": "Chicago",
+    "startDate": "2017-06-29",
+    "endDate": "2017-07-03",
+    "city": "Walnut Creek",
     "country": "United States"
   },
   {
     "id": "stay_048",
-    "startDate": "2017-06-11",
+    "startDate": "2017-07-03",
     "endDate": "2017-08-18",
     "city": "Boulder",
     "country": "United States"
