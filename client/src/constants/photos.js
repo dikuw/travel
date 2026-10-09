@@ -138,13 +138,86 @@ const STAY_PHOTOS = {
     'https://res.cloudinary.com/dikuw/image/upload/v1791517570/IMG_0785_wf9ohv.jpg',
   ],
   stay_057: [
-    'https://res.cloudinary.com/dikuw/image/upload/v1791517570/IMG_0785_wf9ohv.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791517895/IMG_1632_tfdqru.jpg',
   ],
   stay_059: [
     'https://res.cloudinary.com/dikuw/image/upload/v1791518021/IMG_1926_qibrgt.jpg',
     'https://res.cloudinary.com/dikuw/image/upload/v1791518024/IMG_1903_cya17c.jpg',
     'https://res.cloudinary.com/dikuw/image/upload/v1791518030/IMG_1878_z1qobp.jpg',
     'https://res.cloudinary.com/dikuw/image/upload/v1791518033/IMG_1881_c34vnu.jpg',
+  ],
+  stay_060: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543189/IMG_1997_hm6bpr.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543197/IMG_2018_wlyitb.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543254/IMG_2069_bv0thy.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543270/IMG_2114_thpqij.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543297/IMG_2169_qyvulz.jpg',
+  ],
+  stay_062: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543396/IMG_2251_enkkuy.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543400/IMG_2253_v5x55w.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543415/IMG_2312_kwyrhl.jpg',
+  ],
+  stay_063: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543541/IMG_2398_ncsckf.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543547/IMG_2401_jo1tgt.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543576/IMG_2444_z6iizv.jpg',
+  ], 
+  stay_065: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543692/IMG_2659_tciv3s.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543697/IMG_2672_orzss0.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543712/IMG_2784_guu8gk.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543730/IMG_2809_ixfija.jpg',
+  ],
+  stay_067: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543818/IMG_2907_sgbydm.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543837/IMG_3050_mx3sbi.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543862/IMG_3108_locdje.jpg',
+  ],
+  stay_068: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791543940/IMG_3300_amrzqq.jpg',
+  ],
+  stay_069: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544009/534487538.804091_kocyyz.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544013/IMG_3356_ia0cd0.jpg',
+  ],
+  stay_070: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544088/IMG_3432_qodakc.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544091/IMG_3425_xah9k8.jpg',
+  ],
+  stay_072: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544157/IMG_3635_y8edxa.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544160/IMG_3737_ggzngn.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544168/IMG_3758_m1szmn.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544193/IMG_4104_jqlq9r.jpg',
+  ],
+  stay_073: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544260/IMG_4186_jlircv.jpg',
+  ],
+  stay_075: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544276/IMG_4221_ejxttj.jpg',
+  ],
+  stay_078: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544414/IMG_5943_c9osyr.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544426/IMG_5930_gaxa0v.jpg',
+  ],
+  stay_082: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544598/IMG_6910_arij9x.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544619/IMG_6931_llzgy9.jpg',
+  ],
+  stay_084: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544755/IMG_7056_psjpfe.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544762/IMG_7146_mbmam0.jpg',
+  ],
+  stay_086: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544847/IMG_7316_qfzies.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791544863/IMG_7382_kptfmj.jpg',
+  ],
+  stay_096: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791545059/915EAD15-C3CE-49A5-A91D-FCB7AF925366_ycdgpf.jpg',
+  ],
+  stay_098: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791545157/IMG_0150_wz5qnv.jpg',
   ],
 }
 
