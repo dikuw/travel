@@ -229,6 +229,26 @@ const STAY_PHOTOS = {
     'https://res.cloudinary.com/dikuw/image/upload/v1791545661/IMG_0769_jryyqz.jpg',
     'https://res.cloudinary.com/dikuw/image/upload/v1791545763/IMG_1666_fdxg6u.jpg',
   ],
+  stay_104: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791591890/IMG_2719_v0sanq.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791591902/IMG_2922_idmguc.heic',
+  ],
+  stay_105: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791592183/IMG_3053_khs3tc.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791592207/IMG_3074_sitpbh.heic',
+  ],
+  stay_106: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791592371/IMG_3291_oastt5.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791592373/IMG_3354_ribcho.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791592372/IMG_3520_wymizj.heic',
+  ],
+  stay_107: [
+    '',
+    '',
+  ],
+  stay_108: [
+    '',
+  ],
 }
 
 export function stayPhotos(id) {
