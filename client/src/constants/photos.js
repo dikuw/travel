@@ -393,6 +393,66 @@ const STAY_PHOTOS = {
     'https://res.cloudinary.com/dikuw/image/upload/v1791606565/IMG_6040_ycwkch.heic',
     'https://res.cloudinary.com/dikuw/image/upload/v1791606565/IMG_6050_xojxh3.heic',
   ],
+  stay_141: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791606884/IMG_6189_khoqkr.heic',
+  ],
+  stay_142: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674183/IMG_6395_fbdoku.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674190/IMG_6442_lv6heo.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674200/IMG_6628_wdtgdp.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674209/IMG_6696_itb6cf.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674225/IMG_6854_fhxyhg.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674231/IMG_6995_jg48ee.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674236/IMG_7553_hwksre.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674268/IMG_7767_xnht68.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674334/IMG_7880_j4lgqh.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674338/IMG_7910_skko2x.heic',
+  ],
+  stay_143: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674506/IMG_7954_adpfid.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674517/b3e46963-4943-4351-b977-0df34a0e042d_td8hg8.jpg',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674524/IMG_8051_nqzfli.heic',
+  ],
+  stay_144: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674791/IMG_8128_cd0lah.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674811/IMG_8203_iekxhf.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674818/IMG_8240_vvfnxk.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674825/IMG_8431_ybdvnm.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791674835/IMG_8588_fhymnu.heic',
+  ],
+  stay_146: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675096/IMG_8859_adcgw8.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675065/IMG_8813_xou3tf.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675071/IMG_8815_j9zi4k.heic',
+  ],
+  stay_147: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675351/IMG_9058_w3ar4k.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675359/IMG_9103_do4y6a.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675381/IMG_9151_qahry9.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675391/IMG_9259_ta2xon.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675402/IMG_9325_emtq2h.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675413/IMG_9428_yvosyr.heic',
+  ],
+  stay_148: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675615/IMG_9524_yl9awt.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675638/IMG_9570_crcuzq.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675646/IMG_9582_vjdbid.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791675654/IMG_9588_ji97cn.heic',
+  ],
+  stay_150: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791676100/IMG_0131_rsuuns.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791676109/IMG_9847_igwbt8.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791676147/IMG_0271_jehyfa.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791676174/IMG_9931_iowwur.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791676177/IMG_0072_h2g15p.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791676179/IMG_0415_lltzpp.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791676181/IMG_0446_dk0t1g.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791676185/IMG_0512_mnhktm.heic',
+  ],
+  stay_151: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791676422/IMG_0646_vqcn5r.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791676425/IMG_0820_qqyk3v.heic',
+  ],
 }
 
 export function stayPhotos(id) {
