@@ -119,6 +119,7 @@ export const LOCATIONS = {
   "Vienna": [16.3725, 48.2084],
   "Villefranche-sur-Mer": [7.3100, 43.7042],
   "Viña del Mar": [-71.5518, -33.0245],
+  "Vung Tau": [107.0753, 10.3482],
   "Walnut Creek": [-122.0619, 37.9021],
   "Washington D.C.": [-77.0364, 38.8951],
   "Wilson, NC": [-77.9176, 35.7059],
