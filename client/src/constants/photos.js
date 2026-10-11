@@ -734,6 +734,31 @@ const STAY_PHOTOS = {
     'https://res.cloudinary.com/dikuw/image/upload/v1791693148/IMG_8444_ngor7f.heic',
     'https://res.cloudinary.com/dikuw/image/upload/v1791693159/IMG_8451_xrpmjl.heic',
   ],
+  stay_204: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695024/IMG_8608_eufzwh.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695026/IMG_8616_dlhpve.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695027/IMG_8803_vbyisp.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695030/IMG_8917_v2i1xb.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695032/IMG_9052_w7xzi2.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695034/IMG_8955_fzipgx.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695037/IMG_9219_duax0i.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695039/IMG_9007_dx3rjb.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695042/IMG_9411_rhghpt.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695044/IMG_9065_wdnmd9.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695066/IMG_9110_afrln4.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695068/IMG_9245_l0pi1w.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695071/IMG_9376_twzsm1.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695074/IMG_9435_qhkwmq.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695080/IMG_9810_tlopxv.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695078/IMG_9579_wb4mrx.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695064/IMG_9868_memma0.heic',
+  ],
+  stay_205: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695078/IMG_9579_wb4mrx.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695253/IMG_9965_oazegz.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695255/IMG_9966_ydleca.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791695261/IMG_0037_rpxxvr.heic',
+  ],
 }
 
 export function stayPhotos(id) {
