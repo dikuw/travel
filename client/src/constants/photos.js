@@ -1146,7 +1146,7 @@ const STAY_PHOTOS = {
     'https://res.cloudinary.com/dikuw/image/upload/v1791755553/IMG_2336_jgmjeu.heic',
   ],
   stay_282: [
-    'https://res.cloudinary.com/dikuw/image/upload/v1791755553/IMG_2336_jgmjeu.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791755749/IMG_2441_v8jo9a.heic',
     'https://res.cloudinary.com/dikuw/image/upload/v1791755752/IMG_2520_kykj56.heic',
   ],
   stay_283: [
@@ -1196,7 +1196,7 @@ const STAY_PHOTOS = {
   stay_290: [
     'https://res.cloudinary.com/dikuw/image/upload/v1791756902/IMG_5046_cp6clt.heic',
     'https://res.cloudinary.com/dikuw/image/upload/v1791756891/69352A98-758A-4D0C-B54E-84596B7BA162_km0o2u.jpg',
-    'https://res.cloudinary.com/dikuw/image/upload/v1791756920/IMG_5147_xuat5r.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1791756899/IMG_5083_s5vsm7.heic',
   ],
   stay_291: [
     'https://res.cloudinary.com/dikuw/image/upload/v1791756920/IMG_5137_ahsmag.heic',
