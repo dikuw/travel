@@ -30,8 +30,10 @@ function PauseIcon() {
 export default function Timeline() {
   const cursor = useTravelStore((state) => state.cursor)
   const playing = useTravelStore((state) => state.playing)
+  const playbackSpeed = useTravelStore((state) => state.playbackSpeed)
   const setCursor = useTravelStore((state) => state.setCursor)
   const togglePlay = useTravelStore((state) => state.togglePlay)
+  const setPlaybackSpeed = useTravelStore((state) => state.setPlaybackSpeed)
   const pause = useTravelStore((state) => state.pause)
   const { stay, during } = getStayAt(cursor)
 
@@ -47,11 +49,11 @@ export default function Timeline() {
         return
       }
       state.setCursor(next)
-      timeout = window.setTimeout(advance, PLAY_STEP_MS)
+      timeout = window.setTimeout(advance, PLAY_STEP_MS / playbackSpeed)
     }
-    timeout = window.setTimeout(advance, PLAY_STEP_MS)
+    timeout = window.setTimeout(advance, PLAY_STEP_MS / playbackSpeed)
     return () => window.clearTimeout(timeout)
-  }, [playing])
+  }, [playbackSpeed, playing])
 
   const placeLabel = !stay ? 'The start' : during ? stay.location : 'Between stays'
   const rangeLabel = during ? formatRange(stay.start, stay.end) : null
@@ -74,23 +76,39 @@ export default function Timeline() {
         </strong>
         {rangeLabel ? <span>{rangeLabel}</span> : <span>Drag to a date, or play from here</span>}
       </div>
-      <label className="slider">
-        <span className="sr-only">Travel date</span>
-        <input
-          type="range"
-          min={TIMELINE_START}
-          max={TIMELINE_END}
-          step={24 * 60 * 60 * 1000}
-          value={cursor}
-          aria-valuetext={formatDate(cursor)}
-          onPointerDown={pause}
-          onChange={(event) => setCursor(Number(event.target.value))}
-        />
-        <span className="slider-ends" aria-hidden="true">
-          <span>{new Date(TIMELINE_START).getUTCFullYear()}</span>
-          <span>{new Date(TIMELINE_END).getUTCFullYear()}</span>
-        </span>
-      </label>
+      <div className="timeline-track">
+        <label className="slider">
+          <span className="sr-only">Travel date</span>
+          <input
+            type="range"
+            min={TIMELINE_START}
+            max={TIMELINE_END}
+            step={24 * 60 * 60 * 1000}
+            value={cursor}
+            aria-valuetext={formatDate(cursor)}
+            onPointerDown={pause}
+            onChange={(event) => setCursor(Number(event.target.value))}
+          />
+          <span className="slider-ends" aria-hidden="true">
+            <span>{new Date(TIMELINE_START).getUTCFullYear()}</span>
+            <span>{new Date(TIMELINE_END).getUTCFullYear()}</span>
+          </span>
+        </label>
+        <div className="speeds" role="group" aria-label="Playback speed">
+          {[1, 2, 4, 8].map((speed) => (
+            <button
+              key={speed}
+              type="button"
+              className="speed"
+              aria-pressed={playbackSpeed === speed}
+              aria-label={`${speed} times speed`}
+              onClick={() => setPlaybackSpeed(speed)}
+            >
+              {speed}×
+            </button>
+          ))}
+        </div>
+      </div>
     </footer>
   )
 }

@@ -142,8 +142,36 @@ h1 { font-size: 2.6rem; line-height: 0.95; }
   backdrop-filter: blur(16px);
 }
 
+.timeline-track {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.speeds {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.speed {
+  border: 0;
+  border-radius: 999px;
+  padding: 5px 8px;
+  background: transparent;
+  color: #c9bfb2;
+  font: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.speed[aria-pressed="true"] {
+  background: rgba(244, 239, 230, 0.16);
+  color: #f6f1ea;
+}
+
 .play {
-  grid-row: span 2;
   display: grid;
   place-items: center;
   width: 46px;
@@ -158,6 +186,7 @@ h1 { font-size: 2.6rem; line-height: 0.95; }
 .play svg { width: 16px; height: 16px; }
 
 .play:focus-visible,
+.speed:focus-visible,
 .close:focus-visible,
 .year-toggle:focus-visible,
 .slider input:focus-visible {
@@ -721,7 +750,7 @@ h1 { font-size: 2.6rem; line-height: 0.95; }
     grid-template-columns: auto 1fr;
   }
 
-  .slider { grid-column: 1 / -1; }
+  .timeline-track { grid-column: 1 / -1; }
 
   .topbar h1 { font-size: 2rem; }
 

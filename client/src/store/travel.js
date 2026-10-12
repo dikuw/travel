@@ -4,6 +4,7 @@ import { stays, TIMELINE_END, TIMELINE_START } from '../utils/travel.js'
 export const useTravelStore = create((set, get) => ({
   cursor: TIMELINE_END,
   playing: false,
+  playbackSpeed: 1,
   selected: null,
   hover: null,
   view: 'map',
@@ -19,6 +20,7 @@ export const useTravelStore = create((set, get) => ({
   setSelected: (selected) => set({ selected }),
   setHover: (hover) => set({ hover }),
   pause: () => set({ playing: false }),
+  setPlaybackSpeed: (playbackSpeed) => set({ playbackSpeed }),
   setView: (view) => {
     if (get().view === view) return
     set({ view, playing: false, hover: null })
