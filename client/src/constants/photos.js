@@ -1239,7 +1239,14 @@ const STAY_PHOTOS = {
   stay_300: [
     'https://res.cloudinary.com/dikuw/image/upload/v1792459524/IMG_6471_cmtfl5.heic',
     'https://res.cloudinary.com/dikuw/image/upload/v1792459526/IMG_6466_wam4zj.heic',
-  ]
+  ],
+  stay_301: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1793268660/IMG_6716_swbxas.heic',
+  ],
+  stay_302: [
+    'https://res.cloudinary.com/dikuw/image/upload/v1793268660/IMG_6776_zkeqdn.heic',
+    'https://res.cloudinary.com/dikuw/image/upload/v1793268660/IMG_6779_kdqlwm.heic',
+  ],
 }
 
 export function stayPhotos(id) {
